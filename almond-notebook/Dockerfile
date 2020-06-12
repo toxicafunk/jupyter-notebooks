@@ -29,6 +29,6 @@ RUN curl -Lo coursier https://git.io/coursier-cli && \
 
 RUN ./almond --install
 
-#RUN /tmp/scripts/assemble
+RUN /tmp/scripts/assemble
 
 CMD [ "/opt/app-root/builder/run" ]

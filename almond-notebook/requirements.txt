@@ -1,0 +1,5 @@
+### scipy-notebook
+
+beautifulsoup4==4.8.*
+ipywidgets==7.5.*
+matplotlib==3.1.*
