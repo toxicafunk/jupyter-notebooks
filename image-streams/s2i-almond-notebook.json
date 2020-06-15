@@ -1,0 +1,27 @@
+{
+    "kind": "List",
+    "apiVersion": "v1",
+    "items": [
+        {
+            "kind": "ImageStream",
+            "apiVersion": "image.openshift.io/v1",
+            "metadata": {
+                "name": "almond-notebook"
+            },
+            "spec": {
+                "lookupPolicy": {
+                    "local": true
+                },
+                "tags": [
+                    {
+                        "name": "3.5",
+                        "from": {
+                            "kind": "DockerImage",
+                            "name": "registry.origin.paas.eniro/manyana/almond-notebook:0.0.1"
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}
