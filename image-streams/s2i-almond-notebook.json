@@ -6,7 +6,7 @@
             "kind": "ImageStream",
             "apiVersion": "image.openshift.io/v1",
             "metadata": {
-                "name": "almond-notebook"
+                "name": "s2i-almond-notebook"
             },
             "spec": {
                 "lookupPolicy": {
@@ -14,7 +14,7 @@
                 },
                 "tags": [
                     {
-                        "name": "3.5",
+                        "name": "3.6",
                         "from": {
                             "kind": "DockerImage",
                             "name": "registry.origin.paas.eniro/manyana/almond-notebook:0.0.1"
