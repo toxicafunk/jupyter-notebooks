@@ -17,7 +17,7 @@
                         "name": "3.6",
                         "from": {
                             "kind": "DockerImage",
-                            "name": "registry.origin.paas.eniro/manyana/almond-notebook:0.0.1"
+                            "name": "ericnoam/s2i-almond-notebook:0.0.1"
                         }
                     }
                 ]
